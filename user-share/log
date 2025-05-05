@@ -1,0 +1,18 @@
+[Sun Oct 20 03:08:13.149364 2024] [mpm_prefork:notice] [pid 3826:tid 3826] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Sun Oct 20 03:08:13.149529 2024] [core:notice] [pid 3826:tid 3826] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 38375'
+[Sun Oct 20 03:09:25.102565 2024] [mpm_prefork:notice] [pid 3826:tid 3826] AH00169: caught SIGTERM, shutting down
+[Tue Nov 05 16:26:51.652171 2024] [mpm_prefork:notice] [pid 1958:tid 1958] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Tue Nov 05 16:26:51.652464 2024] [core:notice] [pid 1958:tid 1958] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 37947'
+[Tue Nov 05 16:28:57.504378 2024] [mpm_prefork:notice] [pid 1958:tid 1958] AH00169: caught SIGTERM, shutting down
+[Tue Nov 05 16:28:57.784381 2024] [mpm_prefork:notice] [pid 3196:tid 3196] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Tue Nov 05 16:28:57.784547 2024] [core:notice] [pid 3196:tid 3196] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 33129'
+[Tue Nov 05 16:29:07.779018 2024] [mpm_prefork:notice] [pid 3196:tid 3196] AH00169: caught SIGTERM, shutting down
+[Fri Nov 15 23:16:22.642830 2024] [mpm_prefork:notice] [pid 14620:tid 14620] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Fri Nov 15 23:16:22.643078 2024] [core:notice] [pid 14620:tid 14620] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 44569'
+[Sat Nov 16 00:15:54.237251 2024] [mpm_prefork:notice] [pid 14620:tid 14620] AH00169: caught SIGTERM, shutting down
+[Mon Nov 25 22:12:15.337863 2024] [mpm_prefork:notice] [pid 12957:tid 12957] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Mon Nov 25 22:12:15.338075 2024] [core:notice] [pid 12957:tid 12957] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 40565'
+[Wed Nov 27 14:50:43.448398 2024] [mpm_prefork:notice] [pid 12957:tid 12957] AH00169: caught SIGTERM, shutting down
+[Fri Dec 06 23:33:46.069839 2024] [mpm_prefork:notice] [pid 57074:tid 57074] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Fri Dec 06 23:33:46.069961 2024] [core:notice] [pid 57074:tid 57074] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 40659'
+[Fri Dec 06 23:36:32.428837 2024] [mpm_prefork:notice] [pid 57074:tid 57074] AH00169: caught SIGTERM, shutting down

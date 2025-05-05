@@ -1,0 +1,9 @@
+# Ignore cache files
+**/cache/*
+**/*.cache
+**/*.log
+
+# Ignore any potential sensitive information
+**/*.key
+**/*.secret
+**/*.token

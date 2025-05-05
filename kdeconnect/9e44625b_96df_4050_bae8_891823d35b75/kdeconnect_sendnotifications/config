@@ -1,0 +1,12 @@
+[General]
+generalIncludeBody=true
+generalPersistent=true
+generalSynchronizeIcons=true
+generalUrgency=0
+
+[applications]
+1\value=@Invalid()
+2\value=@Invalid()
+3\value=@Invalid()
+4\value=@Invalid()
+size=0
