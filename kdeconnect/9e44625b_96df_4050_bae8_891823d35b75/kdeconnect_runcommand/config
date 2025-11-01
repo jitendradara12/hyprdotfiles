@@ -1,2 +1,0 @@
-[General]
-commands="@ByteArray({\"_5ad16980_dc1b_4134_bf54_90a9bd4749fe_\":{\"command\":\"kdeconnectd\",\"name\":\"connect\"},\"_b4f48578_12a3_4906_8bd8_bbc440bb30f8_\":{\"command\":\"systemctl suspend\",\"name\":\"Suspend\"},\"_b632d637_0cab_4ee9_975c_391643140beb_\":{\"command\":\"loginctl lock-session\",\"name\":\"Lock Screen\"}})"
