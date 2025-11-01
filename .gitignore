@@ -84,3 +84,5 @@ user-dirs.locale
 xdg-terminals.list
 Code/CachedExtensionVSIXs/*
 Code/Cache/*
+Code/
+gtk-3.0/
