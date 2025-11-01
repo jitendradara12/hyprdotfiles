@@ -31,8 +31,14 @@ done
 # quit quickshell & relaunch quickshell
 #pkill qs && qs &
 
+<<<<<<< HEAD
 # Wallust refresh
 ${SCRIPTSDIR}/WallustSwww.sh &
+=======
+# Wallust refresh (synchronous to ensure colors are ready)
+${SCRIPTSDIR}/WallustSwww.sh
+sleep 0.2
+>>>>>>> jakoolit-configs
 
 # reload swaync
 swaync-client --reload-config

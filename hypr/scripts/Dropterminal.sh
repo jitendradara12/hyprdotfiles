@@ -1,5 +1,11 @@
 #!/bin/bash
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+<<<<<<< HEAD
+=======
+#
+# Made and brought to by Kiran George
+# /* -- ✨ https://github.com/SherLock707 ✨ -- */  ##
+>>>>>>> jakoolit-configs
 # Dropdown Terminal 
 # Usage: ./Dropdown.sh [-d] <terminal_command>
 # Example: ./Dropdown.sh foot
@@ -14,8 +20,12 @@ ADDR_FILE="/tmp/dropdown_terminal_addr"
 # Dropdown size and position configuration (percentages)
 WIDTH_PERCENT=50  # Width as percentage of screen width
 HEIGHT_PERCENT=50 # Height as percentage of screen height
+<<<<<<< HEAD
 X_PERCENT=25      # X position as percentage from left (25% centers a 50% width window)
 Y_PERCENT=5       # Y position as percentage from top
+=======
+Y_PERCENT=5       # Y position as percentage from top (X is auto-centered)
+>>>>>>> jakoolit-configs
 
 # Animation settings
 ANIMATION_DURATION=100  # milliseconds
@@ -49,8 +59,13 @@ if [ -z "$TERMINAL_CMD" ]; then
     echo "Edit the script to modify size and position:"
     echo "  WIDTH_PERCENT  - Width as percentage of screen (default: 50)"
     echo "  HEIGHT_PERCENT - Height as percentage of screen (default: 50)"
+<<<<<<< HEAD
     echo "  X_PERCENT      - X position from left as percentage (default: 25)"
     echo "  Y_PERCENT      - Y position from top as percentage (default: 5)"
+=======
+    echo "  Y_PERCENT      - Y position from top as percentage (default: 5)"
+    echo "  Note: X position is automatically centered"
+>>>>>>> jakoolit-configs
     exit 1
 fi
 
@@ -117,6 +132,7 @@ animate_slide_up() {
     debug_echo "Slide up animation completed"
 }
 
+<<<<<<< HEAD
 # Function to get monitor info for centering
 get_monitor_info() {
     hyprctl monitors -j | jq -r '.[0] | "\(.x) \(.y) \(.width) \(.height)"'
@@ -125,10 +141,33 @@ get_monitor_info() {
 # Function to calculate dropdown position
 calculate_dropdown_position() {
     local monitor_info=$(get_monitor_info)
+=======
+# Function to get monitor info including scale and name of focused monitor
+get_monitor_info() {
+    local monitor_data=$(hyprctl monitors -j | jq -r '.[] | select(.focused == true) | "\(.x) \(.y) \(.width) \(.height) \(.scale) \(.name)"')
+    if [ -z "$monitor_data" ] || [[ "$monitor_data" =~ ^null ]]; then
+        debug_echo "Error: Could not get focused monitor information"
+        return 1
+    fi
+    echo "$monitor_data"
+}
+
+# Function to calculate dropdown position with proper scaling and centering
+calculate_dropdown_position() {
+    local monitor_info=$(get_monitor_info)
+    
+    if [ $? -ne 0 ] || [ -z "$monitor_info" ]; then
+        debug_echo "Error: Failed to get monitor info, using fallback values"
+        echo "100 100 800 600 fallback-monitor"
+        return 1
+    fi
+    
+>>>>>>> jakoolit-configs
     local mon_x=$(echo $monitor_info | cut -d' ' -f1)
     local mon_y=$(echo $monitor_info | cut -d' ' -f2)
     local mon_width=$(echo $monitor_info | cut -d' ' -f3)
     local mon_height=$(echo $monitor_info | cut -d' ' -f4)
+<<<<<<< HEAD
     
     # Calculate position and size based on percentages
     local width=$((mon_width * WIDTH_PERCENT / 100))
@@ -137,6 +176,60 @@ calculate_dropdown_position() {
     local y=$((mon_y + (mon_height * Y_PERCENT / 100)))
     
     echo "$x $y $width $height"
+=======
+    local mon_scale=$(echo $monitor_info | cut -d' ' -f5)
+    local mon_name=$(echo $monitor_info | cut -d' ' -f6)
+    
+    debug_echo "Monitor info: x=$mon_x, y=$mon_y, width=$mon_width, height=$mon_height, scale=$mon_scale"
+    
+    # Validate scale value and provide fallback
+    if [ -z "$mon_scale" ] || [ "$mon_scale" = "null" ] || [ "$mon_scale" = "0" ]; then
+        debug_echo "Invalid scale value, using 1.0 as fallback"
+        mon_scale="1.0"
+    fi
+    
+    # Calculate logical dimensions by dividing physical dimensions by scale
+    local logical_width logical_height
+    if command -v bc >/dev/null 2>&1; then
+        # Use bc for precise floating point calculation
+        logical_width=$(echo "scale=0; $mon_width / $mon_scale" | bc | cut -d'.' -f1)
+        logical_height=$(echo "scale=0; $mon_height / $mon_scale" | bc | cut -d'.' -f1)
+    else
+        # Fallback to integer math (multiply by 100 for precision, then divide)
+        local scale_int=$(echo "$mon_scale" | sed 's/\.//' | sed 's/^0*//')
+        if [ -z "$scale_int" ]; then scale_int=100; fi
+        
+        logical_width=$(((mon_width * 100) / scale_int))
+        logical_height=$(((mon_height * 100) / scale_int))
+    fi
+    
+    # Ensure we have valid integer values
+    if ! [[ "$logical_width" =~ ^-?[0-9]+$ ]]; then logical_width=$mon_width; fi
+    if ! [[ "$logical_height" =~ ^-?[0-9]+$ ]]; then logical_height=$mon_height; fi
+    
+    debug_echo "Physical resolution: ${mon_width}x${mon_height}"
+    debug_echo "Logical resolution: ${logical_width}x${logical_height} (physical ÷ scale)"
+    
+    # Calculate window dimensions based on LOGICAL space percentages
+    local width=$((logical_width * WIDTH_PERCENT / 100))
+    local height=$((logical_height * HEIGHT_PERCENT / 100))
+    
+    # Calculate Y position from top based on percentage of LOGICAL height
+    local y_offset=$((logical_height * Y_PERCENT / 100))
+    
+    # Calculate centered X position in LOGICAL space
+    local x_offset=$(((logical_width - width) / 2))
+    
+    # Apply monitor offset to get final positions in logical coordinates
+    local final_x=$((mon_x + x_offset))
+    local final_y=$((mon_y + y_offset))
+    
+    debug_echo "Window size: ${width}x${height} (logical pixels)"
+    debug_echo "Final position: x=$final_x, y=$final_y (logical coordinates)"
+    debug_echo "Hyprland will scale these to physical coordinates automatically"
+    
+    echo "$final_x $final_y $width $height $mon_name"
+>>>>>>> jakoolit-configs
 }
 
 # Get the current workspace
@@ -145,7 +238,18 @@ CURRENT_WS=$(hyprctl activeworkspace -j | jq -r '.id')
 # Function to get stored terminal address
 get_terminal_address() {
     if [ -f "$ADDR_FILE" ] && [ -s "$ADDR_FILE" ]; then
+<<<<<<< HEAD
         cat "$ADDR_FILE"
+=======
+        cut -d' ' -f1 "$ADDR_FILE"
+    fi
+}
+
+# Function to get stored monitor name
+get_terminal_monitor() {
+    if [ -f "$ADDR_FILE" ] && [ -s "$ADDR_FILE" ]; then
+        cut -d' ' -f2- "$ADDR_FILE"
+>>>>>>> jakoolit-configs
     fi
 }
 
@@ -174,6 +278,7 @@ spawn_terminal() {
     debug_echo "Creating new dropdown terminal with command: $TERMINAL_CMD"
     
     # Calculate dropdown position for later use
+<<<<<<< HEAD
     pos_info=$(calculate_dropdown_position)
     target_x=$(echo $pos_info | cut -d' ' -f1)
     target_y=$(echo $pos_info | cut -d' ' -f2)
@@ -185,6 +290,24 @@ spawn_terminal() {
     # Get window count before spawning
     windows_before=$(hyprctl clients -j)
     count_before=$(echo "$windows_before" | jq 'length')
+=======
+    local pos_info=$(calculate_dropdown_position)
+    if [ $? -ne 0 ]; then
+        debug_echo "Warning: Using fallback positioning"
+    fi
+    
+    local target_x=$(echo $pos_info | cut -d' ' -f1)
+    local target_y=$(echo $pos_info | cut -d' ' -f2)
+    local width=$(echo $pos_info | cut -d' ' -f3)
+    local height=$(echo $pos_info | cut -d' ' -f4)
+    local monitor_name=$(echo $pos_info | cut -d' ' -f5)
+    
+    debug_echo "Target position: ${target_x},${target_y}, size: ${width}x${height}"
+    
+    # Get window count before spawning
+    local windows_before=$(hyprctl clients -j)
+    local count_before=$(echo "$windows_before" | jq 'length')
+>>>>>>> jakoolit-configs
     
     # Launch terminal directly in special workspace to avoid visible spawn
     hyprctl dispatch exec "[float; size $width $height; workspace special:scratchpad silent] $TERMINAL_CMD"
@@ -193,10 +316,17 @@ spawn_terminal() {
     sleep 0.1
     
     # Get windows after spawning
+<<<<<<< HEAD
     windows_after=$(hyprctl clients -j)
     count_after=$(echo "$windows_after" | jq 'length')
     
     new_addr=""
+=======
+    local windows_after=$(hyprctl clients -j)
+    local count_after=$(echo "$windows_after" | jq 'length')
+    
+    local new_addr=""
+>>>>>>> jakoolit-configs
     
     if [ "$count_after" -gt "$count_before" ]; then
         # Find the new window by comparing before/after lists
@@ -212,9 +342,15 @@ spawn_terminal() {
     fi
     
     if [ -n "$new_addr" ] && [ "$new_addr" != "null" ]; then
+<<<<<<< HEAD
         # Store the address
         echo "$new_addr" > "$ADDR_FILE"
         debug_echo "Terminal created with address: $new_addr in special workspace"
+=======
+        # Store the address and monitor name
+        echo "$new_addr $monitor_name" > "$ADDR_FILE"
+        debug_echo "Terminal created with address: $new_addr in special workspace on monitor $monitor_name"
+>>>>>>> jakoolit-configs
         
         # Small delay to ensure it's properly in special workspace
         sleep 0.2
@@ -236,6 +372,26 @@ spawn_terminal() {
 if terminal_exists; then
     TERMINAL_ADDR=$(get_terminal_address)
     debug_echo "Found existing terminal: $TERMINAL_ADDR"
+<<<<<<< HEAD
+=======
+    focused_monitor=$(get_monitor_info | awk '{print $6}')
+    dropdown_monitor=$(get_terminal_monitor)
+    if [ "$focused_monitor" != "$dropdown_monitor" ]; then
+        debug_echo "Monitor focus changed: moving dropdown to $focused_monitor"
+        # Calculate new position for focused monitor
+        pos_info=$(calculate_dropdown_position)
+        target_x=$(echo $pos_info | cut -d' ' -f1)
+        target_y=$(echo $pos_info | cut -d' ' -f2)
+        width=$(echo $pos_info | cut -d' ' -f3)
+        height=$(echo $pos_info | cut -d' ' -f4)
+        monitor_name=$(echo $pos_info | cut -d' ' -f5)
+        # Move and resize window
+        hyprctl dispatch movewindowpixel "exact $target_x $target_y,address:$TERMINAL_ADDR"
+        hyprctl dispatch resizewindowpixel "exact $width $height,address:$TERMINAL_ADDR"
+        # Update ADDR_FILE
+        echo "$TERMINAL_ADDR $monitor_name" > "$ADDR_FILE"
+    fi
+>>>>>>> jakoolit-configs
 
     if terminal_in_special; then
         debug_echo "Bringing terminal from scratchpad with slide down animation"
@@ -290,4 +446,8 @@ else
             hyprctl dispatch focuswindow "address:$TERMINAL_ADDR"
         fi
     fi
+<<<<<<< HEAD
 fi
+=======
+fi
+>>>>>>> jakoolit-configs

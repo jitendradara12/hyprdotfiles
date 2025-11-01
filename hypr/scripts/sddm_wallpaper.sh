@@ -10,7 +10,16 @@ wallDIR="$HOME/Pictures/wallpapers"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 wallpaper_current="$HOME/.config/hypr/wallpaper_effects/.wallpaper_current"
 wallpaper_modified="$HOME/.config/hypr/wallpaper_effects/.wallpaper_modified"
+<<<<<<< HEAD
 sddm_simple="/usr/share/sddm/themes/simple_sddm_2"
+=======
+# Resolve SDDM themes directory (standard paths and NixOS path)
+sddm_themes_dir="/usr/share/sddm/themes"
+if [ ! -d "$sddm_themes_dir" ] && [ -d "/run/current-system/sw/share/sddm/themes" ]; then
+    sddm_themes_dir="/run/current-system/sw/share/sddm/themes"
+fi
+sddm_simple="$sddm_themes_dir/simple_sddm_2"
+>>>>>>> jakoolit-configs
 
 # rofi-wallust-sddm colors path
 rofi_wallust="$HOME/.config/rofi/wallust/colors-rofi.rasi"
@@ -46,6 +55,15 @@ else
     wallpaper_path="$wallpaper_modified"
 fi
 
+<<<<<<< HEAD
+=======
+# Abort on NixOS where this repo doesn't manage SDDM and themes are typically read-only
+if hostnamectl 2>/dev/null | grep -q 'Operating System: NixOS'; then
+    notify-send -i "$iDIR/error.png" "SDDM" "NixOS detected: skipping SDDM background change."
+    exit 0
+fi
+
+>>>>>>> jakoolit-configs
 # Launch terminal and apply changes
 $terminal -e bash -c "
 echo 'Enter your password to update SDDM wallpapers and colors';
@@ -70,7 +88,19 @@ sudo sed -i \"s/UserIconColor=\\\"#.*\\\"/UserIconColor=\\\"$color7\\\"/\" \"$sd
 sudo sed -i \"s/PasswordIconColor=\\\"#.*\\\"/PasswordIconColor=\\\"$color7\\\"/\" \"$sddm_theme_conf\"
 
 # Copy wallpaper to SDDM theme
+<<<<<<< HEAD
 sudo cp \"$wallpaper_path\" \"$sddm_simple/Backgrounds/default\"
+=======
+# Primary: set Backgrounds/default (no extension) for simple_sddm_2
+sudo cp -f \"$wallpaper_path\" \"$sddm_simple/Backgrounds/default\" || true
+# Fallbacks: if theme ships default.jpg or default.png, update those too
+if [ -e \"$sddm_simple/Backgrounds/default.jpg\" ]; then
+  sudo cp -f \"$wallpaper_path\" \"$sddm_simple/Backgrounds/default.jpg\"
+fi
+if [ -e \"$sddm_simple/Backgrounds/default.png\" ]; then
+  sudo cp -f \"$wallpaper_path\" \"$sddm_simple/Backgrounds/default.png\"
+fi
+>>>>>>> jakoolit-configs
 
 notify-send -i \"$iDIR/ja.png\" \"SDDM\" \"Background SET\"
 "

@@ -10,7 +10,11 @@
 # Variables
 scriptsDir=$HOME/.config/hypr/scripts
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_current
+<<<<<<< HEAD
 waybar_style="$HOME/.config/waybar/style/[Extra] Modern-Combined - Transparent.css"
+=======
+waybar_style="$HOME/.config/waybar/style/[Extra] Neon Circuit.css"
+>>>>>>> jakoolit-configs
 kvantum_theme="catppuccin-mocha-blue"
 color_scheme="prefer-dark"
 gtk_theme="Flat-Remix-GTK-Blue-Dark"
