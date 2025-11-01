@@ -1,2 +1,5 @@
 [General]
-theme=Catppuccin-Mocha
+theme=catppuccin-mocha-blue
+
+[Applications]
+catppuccin-mocha-blue=kitty, terminal, zsh, nvim

@@ -1,44 +1,33 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-/* Main Config 1440p */
+/* Ja KooLit - Default 
 
-@import "~/.config/rofi/master-config.rasi" 
+* All main themes or configs are located in ~/.config/rofi/themes/
+* If you want to edit the config, that is where you should edit NOT here 
 
-/* ---- Window ---- */
-window {
-    width:	60%;
-}
+* To load a new theme, manually edit the file path below or choose desired theme via rofi theme selector (choose via app menu)
 
-/* ---- Entry input ---- */
-entry {
-    width:	18%;
-}
+* Alternative way to Load (preferred) own cooked by Ja 
+* SUPER CTRL R - Choose style & SUPER CTRL SHIFT R 
 
-/* ---- Mode Switcher ---- */
-button {
-    width:	110px;
-}
+* TIPS 
+* If you have edited a config, rename it with a unique name. During update, the contents of 
+* ~/.config/rofi/themes/ will be replaced. */
 
-/* ---- Listview ---- */
-listview {
-  columns: 6;
-  lines: 4;
-  fixed-height:	true;
-}
+/* ---- Global Configuration Fonts ---- */
+@import "~/.config/rofi/0-shared-fonts.rasi"
 
-/* ---- Element ---- */
-element {
-  orientation: vertical;
-  padding: 12px 0px 0px 0px;
-  spacing: 6px;
-  border-radius: 12px;
-}
+/* note: Main themes in ~/.config/rofi/themes */
+/* You can manually change here or you can use rofi theme selector SUPER SHIFT E */
 
-element-icon {
-  size: 5%;
-}
 
-element-text {
-  font: "Fira Code SemiBold 12";
-  vertical-align: 0.5;
-  horizontal-align: 0.5;
-}
+//@theme "~/.config/rofi/themes/KooL_style-4.rasi"
+
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+
+//@theme "/home/sastauser/.config/rofi/themes/KooL_style-13-Vertical.rasi"
+
+//@theme "/home/sastauser/.config/rofi/themes/KooL_style-1.rasi"
+
+//@theme "/home/sastauser/.config/rofi/themes/KooL_style-8.rasi"
+
+@theme "/home/sastauser/.config/rofi/themes/KooL_LonerOrZ.rasi"

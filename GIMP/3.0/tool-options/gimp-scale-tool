@@ -1,4 +1,6 @@
 # GIMP gimp-scale-tool options
 
+(background
+    (color "R'G'B'A double" 32 "\0\0\0\40\20\20\200\77\0\0\0\200\62\22\302\77\0\0\0\300\355\333\333\77\0\0\0\0\0\0\360\77" 0))
 
 # end of gimp-scale-tool options

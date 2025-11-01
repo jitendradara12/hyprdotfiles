@@ -1177,127 +1177,127 @@
   <resource identifier="external:${gimp_data_dir}/gradients/Yellow_Orange.ggr//Yellow Orange" checksum="c7f332150f1c1d8cb8100add34b0ef55">
   </resource>
 
-  <resource identifier="internal:gimp-palette-color-history//Color History" checksum="d226072a5ce653aa095030eaf84f33e9">
+  <resource identifier="internal:gimp-palette-color-history//Color History" checksum="9e6976d9d1464741bbcf02adca2ad53a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="33f7c3d1fc2491d98e1b07db35c40866">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="7f880a13ae5ab149625bfaf008a7aec4">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="05b177ad8be33a7d661a3aa68872ac40">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="76e571209685f124bc6ab1fe93fe7083">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="a889625aecfff029408eb828be77863f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="9c20b35c36c1f0a7bf7c194fe06b5481">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="1de73ba5c437d765e53b87c0f43329b1">
+  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="15713f5574c81c872c9b9d06ed5552bc">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="9970152c47c780b9905ea2592694c067">
+  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="3870e8dea4ef8548e82f811c7ed147b7">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="c50fe192838bce8f4bb139f4eedd42ce">
+  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="8ca039ecb630ce0a49b7e4e066d7d622">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="55e0e693a02b3c84cbb91952571a74bd">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="d8f570f5b609dc241f6d3946c96f31a7">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="aaecb2c40697b734fa26ebbffe2d503b">
+  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="4ebef616d13395151f139ebcc72b2a1a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="d8fcecb6cf753d6eeeed001adc5423b0">
+  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="642de9b448eeff05fa792f894f4b20af">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="fd5f2db03d9a7d7071816535d31614b8">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="505abd86b844863a7b00870cb7bcd4f8">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="9802aa394677beb17ea11c8d5755d825">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="dad530c3f23f751cee83ad750fdad514">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="a91eee6ec699e95909815449b7ba527b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="21d6597bc6823314e69e7869a732b92b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="d934048a29039c898145aae6fd8aa93a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="7f90a7233c6319d5ec9fe43b35513621">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="98cd0c4b47dec45ced6a3556d9e4ab75">
+  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="429be70138cb6d35f1bff8a4883ddc0a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="2638c7455a97046fbc3621f3df24f5ca">
+  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="62517134a893ba4af12dd3a7ef52641e">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="61c1cbd90c58a098b1be99da45eeea3d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="ab500233805e841b09ea6542cfe60f21">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="6feab2c0ad27bc9e6757324627751a69">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="0912a6d0681c9a74200a4803095b74c2">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="cc74a9d754eae2e40916fb9113503b08">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="fc0753dd6ed8899e0e22122fdecea54f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="6f01cf4a721283333417a86f2b1f172b">
+  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="9e60a2da14434a0133dece6e2592ca62">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="47e630a1e3c0eb0160ab1be88653a72b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="b7f254a59ec853d56ddb47e8c516d53d">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="ff8574402b50743b056b378bdca9c41d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="f607c13b43b45d71858658e2fd293825">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="6f70525e498fa747c2c4d47fa9667d8a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="c28a34794728f3a44af98b9a0dae2b72">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="36c142511320fb9e4ebd659c657d73bd">
+  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="ace2174228441db4dcdccc59302db847">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="0127e08aea17524657eac9656d03ba2a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="a27c4016ef45001568460bb3d20695ac">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="60417ebf5014b3445fca49983543477d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="eebe5b8a0488aa1719fc364a3185204f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="a230d0c6dc9f0d8b747f3b55e15e28ac">
+  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="87304f375aa6d0ab69fad9344431bf83">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="56d57e9706176db4de58dd74ea3e65ae">
+  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="de0cd511cc1e4f3a1e2c36304231add5">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="983b56552fbb7a1ded4f89ccf5bfe696">
+  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="f6e2aba209c43fedf0c91764ad9ca6eb">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="64cd45af735af96f4205b67619a41269">
+  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="ed9bc48f6b6a229b22bdddd7b00d41d7">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="2b2242c1e8d9f81df41238dcd7aca5a4">
+  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="b8724d065a60b5e73f6daec0a5907dce">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="a44759d95b9c53ceffc67ca6c4125647">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="088ed5749c4be3c5a7ddfea75b93e741">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="48a6fb94987e89e45de34333a54eae73">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="da4ff4db072ea1d94507a3a8b60fa5fa">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="4921ca5fd14575489dc731d56bbdfb17">
+  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="fea3a63d7504748331825caa2126294f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="aa62b36fb7172174314076aff3f91afa">
+  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="a1a15d9d9fa0f903534f71d4081a9568">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="508cffc978415c6e157f83842a1ae9ba">
+  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="55550a8e29eb301c2e2c5eff36678c69">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="aee5eabfd1e8c341fd86dcfee8daa04a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="b20506e5e134501eeca3122474ac9e92">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="a3bdc5b6d6f644049e79a33028505211">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="64cf9ff07b5d499a7a4df34a3e3c3561">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="29ca05263e3ef457b211a45f566a941e">
+  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="bd1a11ee8ac530607f0ff80d343b8cfb">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="5711c141824717e313116ef4448f5e26">
+  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="db7e93c57c61d99b6b9ddb6bfda3294a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="d6e2166c1f6f772faf75c35f2b6da88b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="a1ec2f759e6cb812febf7fef2a2df7da">
   </resource>
 
   <resource identifier="internal:gimp-font-standard-alias: Monospace//Monospace" checksum="(null)">
@@ -1334,6 +1334,72 @@
   </resource>
 
   <resource identifier="internal:gimp-font-standard-alias: Serif Italic//Serif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-mono-fonts/AdwaitaMono-Bold.ttf//Adwaita Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-mono-fonts/AdwaitaMono-BoldItalic.ttf//Adwaita Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-mono-fonts/AdwaitaMono-Italic.ttf//Adwaita Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-mono-fonts/AdwaitaMono-Regular.ttf//Adwaita Mono Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans Black Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans ExtraBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans ExtraBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans ExtraLight" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans ExtraLight Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans SemiBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf//Adwaita Sans Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Italic.ttf//Adwaita Sans Thin Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/urw-base35/C059-Bold.otf//C059 Bold" checksum="(null)">
@@ -1378,16 +1444,16 @@
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Regular.otf//Cantarell Regular" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Thin.otf//Cantarell Thin" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Regular.otf//Cantarell Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Thin.otf//Cantarell Thin" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-carlito-fonts/Carlito-Bold.ttf//Carlito Bold" checksum="(null)">
@@ -1522,10 +1588,10 @@
   <resource identifier="external:/usr/share/fonts/fontawesome-6-free-fonts/Font Awesome 6 Free-Solid-900.otf//Font Awesome 6 Free Solid" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/fontawesome/FontAwesome.otf//FontAwesome Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/fontawesome/fontawesome-webfont.ttf//FontAwesome Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/fontawesome/fontawesome-webfont.ttf//FontAwesome Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/fontawesome/FontAwesome.otf//FontAwesome Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/gnu-free/FreeSansBold.ttf//FreeSans Bold" checksum="(null)">
@@ -2146,34 +2212,34 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansCherokee[wght].ttf//Noto Sans Cherokee SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Black" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Black.ttc//Noto Sans CJK HK Black" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK HK Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Black" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK HK DemiLight" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK HK Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK DemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Light" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK HK DemiLight" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Light.ttc//Noto Sans CJK HK Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Light" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Medium.ttc//Noto Sans CJK HK Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Regular" checksum="(null)">
@@ -2182,28 +2248,28 @@
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK HK Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK HK Thin" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK HK Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Black.ttc//Noto Sans CJK JP Black" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK HK Thin" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP Black" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK JP Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Black.ttc//Noto Sans CJK JP Black" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK JP DemiLight" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK JP Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP DemiLight" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK JP DemiLight" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP Light" checksum="(null)">
@@ -2218,22 +2284,22 @@
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK JP Regular" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK JP Thin" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK JP Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK JP Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Black" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK JP Thin" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Black.ttc//Noto Sans CJK KR Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Black" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Bold" checksum="(null)">
@@ -2248,10 +2314,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR DemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Light" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Light.ttc//Noto Sans CJK KR Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Light.ttc//Noto Sans CJK KR Light" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Light" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Medium" checksum="(null)">
@@ -2266,46 +2332,46 @@
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK KR Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK KR Thin" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK KR Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Black" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK KR Thin" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Black.ttc//Noto Sans CJK SC Black" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK SC Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Black" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC DemiLight" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK SC Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK SC DemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Light" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC DemiLight" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Light.ttc//Noto Sans CJK SC Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Light" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Medium.ttc//Noto Sans CJK SC Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK SC Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK SC Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK SC Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK SC Thin" checksum="(null)">
@@ -2320,28 +2386,28 @@
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Black" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK TC Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK TC DemiLight" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans CJK TC Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC DemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Light" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-DemiLight.ttc//Noto Sans CJK TC DemiLight" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Light.ttc//Noto Sans CJK TC Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Light" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Medium.ttc//Noto Sans CJK TC Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Regular" checksum="(null)">
@@ -2350,10 +2416,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans CJK TC Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Thin" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK TC Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Thin.ttc//Noto Sans CJK TC Thin" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-vf-fonts/NotoSansCJK-VF.ttc//Noto Sans CJK TC Thin" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansDevanagari[wght].ttf//Noto Sans Devanagari Bold" checksum="(null)">
@@ -2390,6 +2456,9 @@
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansGeorgian[wght].ttf//Noto Sans Georgian SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSansGothic-Regular.ttf//Noto Sans Gothic Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansGujarati[wght].ttf//Noto Sans Gujarati Bold" checksum="(null)">
@@ -2452,19 +2521,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada Medium" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada SemiBold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada SemiBold" checksum="(null)">
@@ -2518,70 +2578,70 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK HK Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK HK Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK HK Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK HK Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK HK Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK HK Regular" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK HK Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK JP Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK HK Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK JP Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK JP Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK JP Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK JP Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK JP Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK JP Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK KR Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK JP Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK KR Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK KR Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK KR Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK KR Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK KR Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK KR Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK SC Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK KR Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK SC Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK SC Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK SC Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK SC Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK SC Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Regular.ttc//Noto Sans Mono CJK SC Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK TC Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK SC Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK TC Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-sans-cjk-fonts/NotoSansCJK-Bold.ttc//Noto Sans Mono CJK TC Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-sans-mono-cjk-vf-fonts/NotoSansMonoCJK-VF.ttc//Noto Sans Mono CJK TC Medium" checksum="(null)">
@@ -2600,6 +2660,9 @@
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSansNKo-Regular.ttf//Noto Sans NKo Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansOlChiki[wght].ttf//Noto Sans Ol Chiki Bold" checksum="(null)">
@@ -2663,6 +2726,9 @@
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSymbols[wght].ttf//Noto Sans Symbols SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSyriac[wght].ttf//Noto Sans Syriac Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansTamil[wght].ttf//Noto Sans Tamil Bold" checksum="(null)">
@@ -3181,6 +3247,12 @@
   <resource identifier="external:/usr/share/fonts/paktype-naskh-basic-fonts/PakTypeNaskhBasic.ttf//PakType Naskh Basic Regular" checksum="(null)">
   </resource>
 
+  <resource identifier="external:/usr/share/fonts/paktype-naskh-basic-fonts/PakTypeNaskhBasicSemiWide.ttf//PakType Naskh Basic Semi Wide Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/paktype-naskh-basic-fonts/PakTypeNaskhBasicWide.ttf//PakType Naskh Basic Wide Regular" checksum="(null)">
+  </resource>
+
   <resource identifier="external:/usr/share/fonts/rit-meera-new-fonts/RIT-MeeraNew.otf//RIT Meera New Regular" checksum="(null)">
   </resource>
 
@@ -3256,10 +3328,10 @@
   <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-MediumItalic.otf//STIX Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-Regular.otf//STIX Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoMath-Regular.otf//STIX Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoMath-Regular.otf//STIX Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-Regular.otf//STIX Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-SemiBold.otf//STIX SemiBold" checksum="(null)">
