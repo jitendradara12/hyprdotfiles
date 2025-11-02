@@ -1,15 +1,4 @@
 #!/bin/bash
-<<<<<<< HEAD
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */ 
-# This script for selecting wallpapers (SUPER W)
-
-# WALLPAPERS PATH
-wallDIR="$HOME/Pictures/wallpapers"
-SCRIPTSDIR="$HOME/.config/hypr/scripts"
-
-# variables
-focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
-=======
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 # This script for selecting wallpapers (SUPER W)
 
@@ -23,23 +12,11 @@ wallpaper_current="$HOME/.config/hypr/wallpaper_effects/.wallpaper_current"
 iDIR="$HOME/.config/swaync/images"
 iDIRi="$HOME/.config/swaync/icons"
 
->>>>>>> jakoolit-configs
 # swww transition config
 FPS=60
 TYPE="any"
 DURATION=2
 BEZIER=".43,1.19,1,.4"
-<<<<<<< HEAD
-SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
-
-# Check if swaybg is running
-if pidof swaybg > /dev/null; then
-  pkill swaybg
-fi
-
-# Retrieve image files using null delimiter to handle spaces in filenames
-mapfile -d '' PICS < <(find "${wallDIR}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) -print0)
-=======
 SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
 
 # Check if package bc exists
@@ -86,32 +63,11 @@ mapfile -d '' PICS < <(find -L "${wallDIR}" -type f \( \
   -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o \
   -iname "*.bmp" -o -iname "*.tiff" -o -iname "*.webp" -o \
   -iname "*.mp4" -o -iname "*.mkv" -o -iname "*.mov" -o -iname "*.webm" \) -print0)
->>>>>>> jakoolit-configs
 
 RANDOM_PIC="${PICS[$((RANDOM % ${#PICS[@]}))]}"
 RANDOM_PIC_NAME=". random"
 
 # Rofi command
-<<<<<<< HEAD
-rofi_command="rofi -i -show -dmenu -config ~/.config/rofi/config-wallpaper.rasi"
-
-# Sorting Wallpapers
-menu() {
-  # Sort the PICS array
-  IFS=$'\n' sorted_options=($(sort <<<"${PICS[*]}"))
-  
-  # Place ". random" at the beginning with the random picture as an icon
-  printf "%s\x00icon\x1f%s\n" "$RANDOM_PIC_NAME" "$RANDOM_PIC"
-  
-  for pic_path in "${sorted_options[@]}"; do
-    pic_name=$(basename "$pic_path")
-    
-    # Displaying .gif to indicate animated images
-    if [[ ! "$pic_name" =~ \.gif$ ]]; then
-      printf "%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path"
-    else
-      printf "%s\n" "$pic_name"
-=======
 rofi_command="rofi -i -show -dmenu -config $rofi_theme -theme-str $rofi_override"
 
 # Sorting Wallpapers
@@ -138,25 +94,10 @@ menu() {
       printf "%s\x00icon\x1f%s\n" "$pic_name" "$cache_preview_image"
     else
       printf "%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path"
->>>>>>> jakoolit-configs
     fi
   done
 }
 
-<<<<<<< HEAD
-# initiate swww if not running
-swww query || swww-daemon --format xrgb
-
-# Choice of wallpapers
-main() {
-  choice=$(menu | $rofi_command)
-  
-  # Trim any potential whitespace or hidden characters
-  choice=$(echo "$choice" | xargs)
-  RANDOM_PIC_NAME=$(echo "$RANDOM_PIC_NAME" | xargs)
-
-  # No choice case
-=======
 # Offer SDDM Simple Wallpaper Option (only for non-video wallpapers)
 set_sddm_wallpaper() {
   sleep 1
@@ -268,56 +209,11 @@ main() {
   choice=$(echo "$choice" | xargs)
   RANDOM_PIC_NAME=$(echo "$RANDOM_PIC_NAME" | xargs)
 
->>>>>>> jakoolit-configs
   if [[ -z "$choice" ]]; then
     echo "No choice selected. Exiting."
     exit 0
   fi
 
-<<<<<<< HEAD
-  # Random choice case
-  if [[ "$choice" == "$RANDOM_PIC_NAME" ]]; then
-	swww img -o "$focused_monitor" "$RANDOM_PIC" $SWWW_PARAMS;
-    sleep 0.5
-    "$SCRIPTSDIR/WallustSwww.sh"
-    sleep 0.2
-    "$SCRIPTSDIR/Refresh.sh"
-    exit 0
-  fi
-
-  # Find the index of the selected file
-  pic_index=-1
-  for i in "${!PICS[@]}"; do
-    filename=$(basename "${PICS[$i]}")
-    if [[ "$filename" == "$choice"* ]]; then
-      pic_index=$i
-      break
-    fi
-  done
-
-  if [[ $pic_index -ne -1 ]]; then
-    swww img -o "$focused_monitor" "${PICS[$pic_index]}" $SWWW_PARAMS
-  else
-    echo "Image not found."
-    exit 1
-  fi
-}
-
-# Check if rofi is already running
-if pidof rofi > /dev/null; then
-  pkill rofi
-  sleep 1  # Allow some time for rofi to close
-fi
-
-main
-
-sleep 0.5
-"$SCRIPTSDIR/WallustSwww.sh"
-
-sleep 0.2
-"$SCRIPTSDIR/Refresh.sh"
-
-=======
   # Handle random selection correctly
   if [[ "$choice" == "$RANDOM_PIC_NAME" ]]; then
     choice=$(basename "$RANDOM_PIC")
@@ -350,4 +246,3 @@ if pidof rofi >/dev/null; then
 fi
 
 main
->>>>>>> jakoolit-configs
