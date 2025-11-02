@@ -10,8 +10,7 @@ source = $HOME/.config/hypr/wallust/wallust-hyprland.conf
 
 decoration {
   rounding = 0
-         
-  active_opaci	ty = 1.0
+  active_opacity = 1.0
   inactive_opacity = 0.989
   fullscreen_opacity = 1.0
 
@@ -19,13 +18,12 @@ decoration {
   dim_strength = 0.04
   dim_special = 0.8
 
-  drop_shadow = true
-  shadow_range = 0
-  shadow_render_power = 1
-  
-  col.shadow = $color12
-  col.shadow_inactive = 0x50000000
-
+  # drop_shadow = true
+  # shadow_range = 0
+  # shadow_render_power = 1
+  # col.shadow = $color12
+  # col.shadow_inactive = 0x50000000
+  #
   blur {
     enabled = true	
     size = 7
