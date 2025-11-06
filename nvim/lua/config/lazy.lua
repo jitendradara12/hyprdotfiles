@@ -24,9 +24,13 @@ require("lazy").setup({
         -- enable extras
         extras = {
           "lazyvim.plugins.extras.coding.copilot",
+          "lazyvim.plugins.extras.lang.python", -- <-- ADDed THIS LINE
+
+          --important: via Mason, install black, ruff and pyright
+
           -- you can add other extras here too, for example:
+          "lazyvim.plugins.extras.test.core", -- <-- ADD THIS
           -- "lazyvim.plugins.extras.lang.typescript",
-          -- "lazyvim.plugins.extras.ui.mini-indentscope",
         },
       },
     },
