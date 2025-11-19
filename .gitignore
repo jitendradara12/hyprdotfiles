@@ -25,6 +25,7 @@ Code/CachedExtensionVSIXs/ms-vscode.cpptools-1.25.2-linux-x64
 *.yml.save
 
 # Application-specific files and directories
+Antigravity/
 abrt/
 configstore/
 dconf/
