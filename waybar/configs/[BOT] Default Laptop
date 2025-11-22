@@ -16,8 +16,10 @@
 "fixed-center": true,
 "ipc": true,
 //"margin-top": 6,
-"margin-left": 8,
-"margin-right": 8,
+//"margin-left": 8,
+//"margin-right": 8,
+"margin-left": 0, //side gaps
+"margin-right": 0, //annoying little gaps 
 
 "modules-left": [
 	"hyprland/workspaces#pacman",
