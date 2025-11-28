@@ -18,11 +18,11 @@ Code/CachedExtensionVSIXs/ms-vscode.cpptools-1.25.2-linux-x64
 *.db
 *.xml
 *.ini
-*.conf
 *.list
 *.dirs
 *.locale
 *.yml.save
+*.save
 
 # Application-specific files and directories
 Antigravity/
