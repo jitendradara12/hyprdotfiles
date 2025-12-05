@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # Game Mode. Turning off all animations
 
@@ -19,6 +19,7 @@ if [ "$HYPRGAMEMODE" = 1 ]; then
   hyprctl keyword "windowrule opacity 1 override 1 override 1 override, ^(.*)$"
   swww kill
   notify-send -e -u low -i "$notif" " Gamemode:" " enabled"
+  sleep 0.1
   exit
 else
   swww-daemon --format xrgb && swww img "$HOME/.config/rofi/.current_wallpaper" &
