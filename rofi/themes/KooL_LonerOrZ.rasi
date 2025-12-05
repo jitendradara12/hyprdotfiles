@@ -49,7 +49,7 @@ prompt {
     enabled:                        true;
     padding:                        16px;
     background-color:               inherit;
-    text-color:                     @PRI;
+    text-color:                     @FG;
     font:                           "Roboto Medium 16";
 }
 
@@ -127,7 +127,7 @@ element-text {
 
 element selected {
     background-color:               @ON;
-    text-color:                     @SEC;
+    text-color:                     @FG;
     border-radius:                  22px;
 }
 
@@ -142,7 +142,7 @@ message {
 error-message {
     padding:                        20px;
     background-color:               @BG;
-    text-color:                     @PRI;
+    text-color:                     @FG;
 }
 textbox {
     padding:                        20px;

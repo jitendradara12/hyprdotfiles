@@ -16,13 +16,13 @@ ADDR_FILE="/tmp/dropdown_terminal_addr"
 
 # Dropdown size and position configuration (percentages)
 WIDTH_PERCENT=65  # Width as percentage of screen width
-HEIGHT_PERCENT=65 # Height as percentage of screen height
-Y_PERCENT=10      # Y position as percentage from top (X is auto-centered)
+HEIGHT_PERCENT=52 # Height as percentage of screen height
+Y_PERCENT=8       # Y position as percentage from top (X is auto-centered)
 
 # Animation settings
-ANIMATION_DURATION=100 # milliseconds
-SLIDE_STEPS=5
-SLIDE_DELAY=5 # milliseconds between steps
+ANIMATION_DURATION=69 # milliseconds
+SLIDE_STEPS=1
+SLIDE_DELAY=10 # milliseconds between steps
 
 # Parse arguments
 if [ "$1" = "-d" ]; then
