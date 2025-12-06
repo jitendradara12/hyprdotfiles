@@ -127,7 +127,7 @@ element-text {
 
 element selected {
     background-color:               @ON;
-    text-color:                     @FG;
+    text-color:                     @SEL;
     border-radius:                  22px;
 }
 
