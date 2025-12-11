@@ -35,6 +35,7 @@ evince/
 evolution/
 gcloud/
 gh/
+go/
 gh-copilot/
 GIMP/
 github-copilot/
@@ -67,6 +68,32 @@ vlc/
 whoozle.github.io/
 YouTube Music/
 nextjs-nodejs/
+
+# Browsers
+chromium/
+BraveSoftware/
+firefox/
+
+# VS Code (contains tokens & sync state)
+code-server/
+
+# Cloud CLIs
+. aws/
+. azure/
+
+# SSH & GPG (NEVER commit these)
+. ssh/
+.gnupg/
+
+# Password managers
+. password-store/
+
+# General secrets
+*. pem
+*.key
+*secret*
+*token*
+*credential*
 # Specific files
 .gsd-keyboard.settings-ported
 connections.db
