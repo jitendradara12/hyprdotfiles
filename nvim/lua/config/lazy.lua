@@ -25,7 +25,7 @@ require("lazy").setup({
         extras = {
           "lazyvim.plugins.extras.coding.copilot",
           "lazyvim.plugins.extras.lang.python", -- <-- ADDed THIS LINE
-
+          "lazyvim.plugins.extras.lang.go",
           --important: via Mason, install black, ruff and pyright
 
           -- you can add other extras here too, for example:
