@@ -26,6 +26,7 @@ require("lazy").setup({
           "lazyvim.plugins.extras.coding.copilot",
           "lazyvim.plugins.extras.lang.python", -- <-- ADDed THIS LINE
           "lazyvim.plugins.extras.lang.go",
+          "lazyvim.plugins.extras.formatting.prettier",
           --important: via Mason, install black, ruff and pyright
 
           -- you can add other extras here too, for example:
@@ -70,32 +71,32 @@ require("lazy").setup({
 
 --****************************************************************************************
 --this is added by me for zoom in nvide
-local function adjust_neovide_scale(delta)
-  -- Ensure the global variable exists, default to 1.0 if not
-  if vim.g.neovide_scale_factor == nil then
-    vim.g.neovide_scale_factor = 1.5
-  end
-  -- Adjust the scale factor, preventing it from going below a small value
-  vim.g.neovide_scale_factor = math.max(0.5, vim.g.neovide_scale_factor + delta)
-end
-
--- Define keymaps for zooming in, zooming out, and resetting zoom
-vim.keymap.set("n", "<C-=>", function()
-  adjust_neovide_scale(0.1)
-end, { desc = "Neovide Zoom In" })
-vim.keymap.set("n", "<C-->", function()
-  adjust_neovide_scale(-0.1)
-end, { desc = "Neovide Zoom Out" })
-vim.keymap.set("n", "<leader>zr", function()
-  vim.g.neovide_scale_factor = 1.0
-end, { desc = "Neovide Reset Zoom" })
-
--- Optional: Add mappings for Visual mode as well
-vim.keymap.set("v", "<C-=>", function()
-  adjust_neovide_scale(0.1)
-end, { desc = "Neovide Zoom In" })
-vim.keymap.set("v", "<C-->", function()
-  adjust_neovide_scale(-0.1)
-end, { desc = "Neovide Zoom Out" })
---the zoom config ends here
+-- local function adjust_neovide_scale(delta)
+--   -- Ensure the global variable exists, default to 1.0 if not
+--   if vim.g.neovide_scale_factor == nil then
+--     vim.g.neovide_scale_factor = 1.5
+--   end
+--   -- Adjust the scale factor, preventing it from going below a small value
+--   vim.g.neovide_scale_factor = math.max(0.5, vim.g.neovide_scale_factor + delta)
+-- end
+--
+-- -- Define keymaps for zooming in, zooming out, and resetting zoom
+-- vim.keymap.set("n", "<C-=>", function()
+--   adjust_neovide_scale(0.1)
+-- end, { desc = "Neovide Zoom In" })
+-- vim.keymap.set("n", "<C-->", function()
+--   adjust_neovide_scale(-0.1)
+-- end, { desc = "Neovide Zoom Out" })
+-- vim.keymap.set("n", "<leader>zr", function()
+--   vim.g.neovide_scale_factor = 1.0
+-- end, { desc = "Neovide Reset Zoom" })
+--
+-- -- Optional: Add mappings for Visual mode as well
+-- vim.keymap.set("v", "<C-=>", function()
+--   adjust_neovide_scale(0.1)
+-- end, { desc = "Neovide Zoom In" })
+-- vim.keymap.set("v", "<C-->", function()
+--   adjust_neovide_scale(-0.1)
+-- end, { desc = "Neovide Zoom Out" })
+-- --the zoom config ends here
 --*****************************************************************************
