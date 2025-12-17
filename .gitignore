@@ -37,7 +37,20 @@ gcloud/
 gh/
 go/
 gh-copilot/
-GIMP/
+# --- GIMP 3.0 Configs ---
+
+# Exclude session state and window positions (highly volatile)
+/GIMP/3.0/sessionrc
+/GIMP/3.0/action-history
+
+# Exclude binary data and metadata caches
+/GIMP/3.0/internal-data/
+/GIMP/3.0/parasiterc
+/GIMP/3.0/pluginrc
+
+# Exclude logs and recovery files
+/GIMP/3.0/CrashLog/
+/GIMP/3.0/backups/
 github-copilot/
 gnome-boxes/
 gnome-session/
