@@ -3,6 +3,9 @@
 (file-version 1)
 
 (GimpToolGroup "tool group"
+    (visible no)
+    (children))
+(GimpToolGroup "tool group"
     (visible yes)
     (active-tool "gimp-align-tool")
     (children

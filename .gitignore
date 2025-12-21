@@ -51,6 +51,10 @@ gh-copilot/
 # Exclude logs and recovery files
 /GIMP/3.0/CrashLog/
 /GIMP/3.0/backups/
+#Exclude local tool state if you want a clean slate on every install
+# /GIMP/3.0/devicerc
+# /GIMP/3.0/tool-options/
+# --- GIMP 3.0 Configs ---
 github-copilot/
 gnome-boxes/
 gnome-session/
