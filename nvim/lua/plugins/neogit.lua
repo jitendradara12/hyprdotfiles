@@ -7,7 +7,7 @@ return {
   keys = {
     -- You can change this keymap to whatever you like
     {
-      "<leader>gg",
+      "<leader>lg", --lazygit & neogit are swapped!!
       function()
         require("neogit").open()
       end,
