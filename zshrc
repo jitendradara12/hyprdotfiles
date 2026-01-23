@@ -37,5 +37,8 @@ setopt appendhistory
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
-alias ff='nvim $(fzf --preview="bat --color=always {}")' #added it 
-eval "$(gh copilot alias -- zsh)"
+alias ff='nvim $(fzf --preview="bat --color=always {}")'
+# eval "$(gh copilot alias -- zsh)"
+
+
+if [ -e /home/sastauser/.nix-profile/etc/profile.d/nix.sh ]; then . /home/sastauser/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
