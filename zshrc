@@ -38,7 +38,13 @@ alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
 alias ff='nvim $(fzf --preview="bat --color=always {}")'
+alias y='yazi'
 # eval "$(gh copilot alias -- zsh)"
 
 
 if [ -e /home/sastauser/.nix-profile/etc/profile.d/nix.sh ]; then . /home/sastauser/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+# 1. The Editor
+export EDITOR="nvim"
+export VISUAL="nvim"
+
+
