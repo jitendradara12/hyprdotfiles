@@ -18,7 +18,8 @@
   # 2. Programs with built-in Home Manager modules go here
   programs.yazi = {
     enable = true;
-    enableBashIntegration = true; # Or enableZshIntegration if you use Zsh
+    enableZshIntegration = false;  # CRITICAL: Stops Nix from touching .zshrc   
+    enableBashIntegration = false; # Or enableZshIntegration if you use Zsh
     settings = {
       manager = {
         show_hidden = true;
@@ -26,8 +27,13 @@
       };
     };
   };
+ home.sessionVariables = {
+    EDITOR = "nvim";
+    VISUAL = "nvim";
+  };
 
- programs.zsh.enable = true;
+ programs.bash.enable = false;
+ programs.zsh.enable = false;
   # Let Home Manager install and manage itself.
  programs.home-manager.enable = true;
 }
