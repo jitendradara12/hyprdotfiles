@@ -27,6 +27,7 @@ require("lazy").setup({
           "lazyvim.plugins.extras.lang.python", -- <-- ADDed THIS LINE
           "lazyvim.plugins.extras.lang.go",
           "lazyvim.plugins.extras.formatting.prettier",
+          "lazyvim.plugins.extras.lang.flutter",
           --important: via Mason, install black, ruff and pyright
 
           -- you can add other extras here too, for example:

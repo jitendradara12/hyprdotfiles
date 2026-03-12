@@ -48,3 +48,7 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 
+
+# opencode
+export PATH=/home/sastauser/.opencode/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
