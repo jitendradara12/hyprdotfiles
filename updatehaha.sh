@@ -12,7 +12,7 @@ fi
 
 # Ensure remote exists
 if ! git remote | grep -q '^jakoolit$'; then
-  git remote add jakoolit https://github.com/JaKooLit/Hyprland-Dots.git
+  git remote add jakoolit https://github.com/LinuxBeginnings/Hyprland-Dots
 fi
 git fetch jakoolit
 
