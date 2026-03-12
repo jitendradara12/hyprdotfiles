@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
+# /* ---- 💫 https://github.com/LinuxBeginnings 💫 ---- */  ##
 # Scripts for refreshing ags, waybar, rofi, swaync, wallust
 
 SCRIPTSDIR=$HOME/.config/hypr/scripts
@@ -21,6 +21,9 @@ for _prs in "${_ps[@]}"; do
     pkill "${_prs}"
   fi
 done
+
+# Clean up any Waybar-spawned cava instances (unique temp conf names)
+pkill -f 'waybar-cava\..*\.conf' 2>/dev/null || true
 
 # added since wallust sometimes not applying
 killall -SIGUSR2 waybar

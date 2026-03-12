@@ -1,4 +1,4 @@
-//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
+//* ---- 💫 https://github.com/LinuxBeginnings 💫 ---- *//
 /* Waybar Modules - Custom Modules */
 /* Basically created to reduce the lines in Waybar Modules bank */
 /* NOTE: This is only for Custom Modules */
@@ -16,6 +16,14 @@
 	"exec": "$HOME/.config/hypr/UserScripts/WeatherWrap.sh",
 	//"exec-if": "ping wttr.in -c1",
 	"tooltip": true,
+},
+
+"custom/weather2": {
+    "exec": "waybar-weather",
+    "restart-interval": 60,
+    "return-type": "json",
+    "hide-empty-text": true,
+    "on-click": "pkill -USR1 waybar-weather"
 },
 
 "custom/hyprpicker": {
@@ -136,7 +144,9 @@
 // This is a custom cava visualizer
 "custom/cava_mviz": {
 	"exec": "$HOME/.config/hypr/scripts/WaybarCava.sh",
-	"format": "{}"
+	"format": "{}",
+	"return-type": "text",
+	"tooltip": false
 },
 
 "custom/playerctl": {
