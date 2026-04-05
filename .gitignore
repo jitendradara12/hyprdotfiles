@@ -31,6 +31,9 @@ configstore/
 dconf/
 enchant/
 eog/
+cava/
+#i don't use ghostty
+ghostty/
 evince/
 evolution/
 gcloud/
@@ -112,6 +115,15 @@ code-server/
 *token*
 *credential*
 # Specific files
+hypr/wallpaper_effects/.wallpaper_current
+hypr/wallust/wallust-hyprland.conf
+rofi/wallust/colors-rofi/rasi
+rofi/.current_wallpaper
+waybar/wallust/colors-waybar.css
+quickshell/qml_color.json
+
+seanime-denshi/
+
 .gsd-keyboard.settings-ported
 connections.db
 dleyna-server-service.conf
