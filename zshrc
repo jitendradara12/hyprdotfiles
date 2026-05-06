@@ -3,7 +3,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="apple"
 
 plugins=( 
     git
@@ -52,3 +52,10 @@ export VISUAL="nvim"
 # opencode
 export PATH=/home/sastauser/.opencode/bin:$PATH
 export PATH="$HOME/.local/bin:$PATH"
+
+. "$HOME/.local/share/../bin/env"
+
+#claude
+export CLAUDE_CODE_USE_BEDROCK=1
+export AWS_REGION="us-east-1" 
+export ANTHROPIC_MODEL="anthropic.claude-sonnet-4-6-v1"
