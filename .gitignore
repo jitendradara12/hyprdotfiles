@@ -98,18 +98,18 @@ firefox/
 code-server/
 
 # Cloud CLIs
-. aws/
-. azure/
+.aws/
+.azure/
 
 # SSH & GPG (NEVER commit these)
-. ssh/
+.ssh/
 .gnupg/
 
 # Password managers
-. password-store/
+.password-store/
 
 # General secrets
-*. pem
+*.pem
 *.key
 *secret*
 *token*
@@ -117,7 +117,7 @@ code-server/
 # Specific files
 hypr/wallpaper_effects/.wallpaper_current
 hypr/wallust/wallust-hyprland.conf
-rofi/wallust/colors-rofi/rasi
+rofi/wallust/colors-rofi.rasi
 rofi/.current_wallpaper
 waybar/wallust/colors-waybar.css
 quickshell/qml_color.json
@@ -141,3 +141,4 @@ Code/CachedExtensionVSIXs/*
 Code/Cache/*
 Code/
 gtk-3.0/
+AGENTS.md
