@@ -4,7 +4,7 @@ return {
     lazy = false,
     dependencies = {
       "nvim-lua/plenary.nvim",
-      "stevearc/dressing.nvim", -- Optional: for better UI on selections
+      -- "stevearc/dressing.nvim", -- Optional: for better UI on selections and depricated now
     },
     config = function()
       require("flutter-tools").setup({
@@ -27,9 +27,9 @@ return {
           enabled = true,
         },
         lsp = {
-          color = {
-            enabled = true,
-          },
+          -- color = {
+          --   enabled = true,
+          -- },
           settings = {
             showTodos = true,
             completeFunctionCalls = true,
